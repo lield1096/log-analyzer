@@ -1,8 +1,8 @@
 # Log Analyzer
 
-[!\[CI](https://github.com/lield1096/log-analyzer/actions/workflows/ci.yml/badge.svg)](https://github.com/OWNER/log-analyzer/actions/workflows/ci.yml)
-[!\[Python](https://img.shields.io/badge/python-3.9%2B-blue)](pyproject.toml)
-[!\[License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+[![CI](https://github.com/lield1096/log-analyzer/actions/workflows/ci.yml/badge.svg)](https://github.com/lield1096/log-analyzer/actions/workflows/ci.yml)
+![Python](https://img.shields.io/badge/python-3.9%2B-blue)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 A lightweight command-line tool that reads application log files, counts
 `ERROR` / `WARNING` / `INFO` entries, groups recurring errors, and prints a
