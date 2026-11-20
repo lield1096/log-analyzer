@@ -9,7 +9,7 @@ description = "A lightweight CLI that summarises application logs and finds recu
 readme = "README.md"
 license = "MIT"
 license-files = ["LICENSE"]
-requires-python = ">=3.9"
+requires-python = ">=3.10"
 authors = [{ name = "Log Analyzer contributors" }]
 keywords = ["logs", "cli", "monitoring", "rich"]
 classifiers = [
@@ -35,7 +35,7 @@ testpaths = ["tests"]
 
 [tool.ruff]
 line-length = 110
-target-version = "py39"
+target-version = "py310"
 
 [tool.ruff.lint]
 select = ["E", "F", "I", "B", "UP"]
