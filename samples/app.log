@@ -1,0 +1,621 @@
+2026-11-01 08:11:24 ERROR [api] Unhandled exception in GET /api/orders/4657: KeyError 'customer_id'
+2026-11-01 08:22:10 ERROR [db] Connection timeout after 3000ms to 10.0.2.209:5432
+2026-11-01 08:27:24 WARNING [auth] Failed login attempt for user alice from 10.0.2.156
+2026-11-01 08:37:03 WARNING [worker] Retrying job 5803 (attempt 1/3)
+2026-11-01 08:42:29 INFO [auth] User alice logged out
+2026-11-01 08:54:38 INFO [worker] Job 9751 completed in 766ms
+2026-11-01 09:04:38 WARNING [auth] Failed login attempt for user alice from 10.0.3.70
+2026-11-01 09:17:23 INFO [cache] Cache refreshed (7482 keys)
+2026-11-01 09:30:37 INFO [worker] Job 6930 completed in 244ms
+2026-11-01 09:33:50 INFO [api] POST /api/cart 201 in 414ms
+2026-11-01 09:46:38 ERROR [worker] Job 6573 failed: out of memory
+2026-11-01 09:55:40 INFO [worker] Job 5889 completed in 881ms
+2026-11-01 10:09:27 INFO [auth] User erin logged in
+2026-11-01 10:19:37 INFO [auth] User dave logged in
+2026-11-01 10:29:07 INFO [api] POST /api/cart 201 in 793ms
+2026-11-01 10:38:26 INFO [auth] User bob logged out
+2026-11-01 10:39:56 WARNING [api] Slow response: GET /api/search took 3949ms
+2026-11-01 10:50:10 INFO [auth] User dave logged out
+2026-11-01 10:51:35 INFO [cache] Cache refreshed (1993 keys)
+2026-11-01 10:59:17 WARNING [worker] Retrying job 2235 (attempt 3/3)
+2026-11-01 11:12:38 INFO [auth] User dave logged out
+2026-11-01 11:26:30 INFO [api] GET /api/orders/8973 200 in 178ms
+2026-11-01 11:39:45 INFO [auth] User erin logged in
+2026-11-01 11:50:24 ERROR [worker] Job 2964 failed: out of memory
+2026-11-01 11:55:21 WARNING [auth] Failed login attempt for user bob from 10.0.3.82
+2026-11-01 12:05:27 INFO [auth] User erin logged in
+2026-11-01 12:08:38 INFO [worker] Job 9666 completed in 28ms
+2026-11-01 12:13:38 ERROR [db] Connection timeout after 5000ms to 10.0.2.54:5432
+2026-11-01 12:28:34 ERROR [payments] Payment 1722 failed: card declined (request 6d7ce3c9-b4a6-9f3c-8d3a-ed99711c21c9)
+2026-11-01 12:30:58 ERROR [worker] Job 9938 failed: out of memory
+2026-11-01 12:32:08 INFO [auth] User bob logged out
+2026-11-01 12:46:28 WARNING [worker] Retrying job 3938 (attempt 1/3)
+2026-11-01 12:47:37 INFO [auth] User bob logged out
+2026-11-01 12:49:18 INFO [api] GET /api/orders/9346 200 in 429ms
+2026-11-01 12:52:50 INFO [api] GET /api/orders/2776 200 in 630ms
+2026-11-01 13:03:10 WARNING [api] Slow response: GET /api/search took 6410ms
+2026-11-01 13:14:18 INFO [auth] User carol logged in
+2026-11-01 13:21:58 INFO [api] POST /api/cart 201 in 435ms
+2026-11-01 13:33:38 INFO [api] POST /api/cart 201 in 543ms
+2026-11-01 13:35:43 INFO [auth] User carol logged out
+2026-11-01 13:49:19 ERROR [payments] Payment 4185 failed: card declined (request 016b6287-b008-05cc-a7f3-6ae925c73c44)
+2026-11-01 14:02:57 INFO [api] POST /api/cart 201 in 843ms
+2026-11-01 14:11:14 WARNING [worker] Retrying job 6198 (attempt 3/3)
+2026-11-01 14:19:50 INFO [auth] User carol logged out
+2026-11-01 14:26:03 INFO [worker] Job 3267 completed in 174ms
+2026-11-01 14:35:48 INFO [auth] User bob logged in
+2026-11-01 14:42:57 INFO [api] POST /api/cart 201 in 839ms
+2026-11-01 14:49:11 INFO [api] POST /api/cart 201 in 150ms
+2026-11-01 14:51:06 INFO [auth] User dave logged out
+2026-11-01 14:58:04 WARNING [worker] Retrying job 2341 (attempt 2/3)
+2026-11-01 15:09:41 ERROR [db] Connection timeout after 3000ms to 10.0.1.34:5432
+2026-11-01 15:22:07 WARNING [auth] Failed login attempt for user bob from 10.0.0.150
+2026-11-01 15:29:01 INFO [cache] Cache refreshed (2245 keys)
+2026-11-01 15:31:34 INFO [worker] Job 6688 completed in 565ms
+2026-11-01 15:46:06 INFO [api] POST /api/cart 201 in 744ms
+2026-11-01 16:00:23 INFO [api] POST /api/cart 201 in 865ms
+2026-11-01 16:08:34 WARNING [worker] Retrying job 7209 (attempt 2/3)
+2026-11-01 16:14:52 WARNING [auth] Failed login attempt for user erin from 10.0.1.186
+2026-11-01 16:27:09 INFO [cache] Cache refreshed (8342 keys)
+2026-11-01 16:37:34 INFO [worker] Job 6632 completed in 455ms
+2026-11-01 16:40:07 INFO [api] GET /api/orders/9779 200 in 800ms
+2026-11-01 16:53:35 INFO [api] GET /api/orders/4180 200 in 323ms
+2026-11-01 16:54:51 INFO [worker] Job 3068 completed in 673ms
+2026-11-01 16:58:29 INFO [api] GET /api/orders/2869 200 in 861ms
+2026-11-01 17:01:31 INFO [api] GET /api/orders/5066 200 in 141ms
+2026-11-01 17:07:05 INFO [api] POST /api/cart 201 in 644ms
+2026-11-01 17:17:00 ERROR [db] Connection timeout after 5000ms to 10.0.2.182:5432
+2026-11-01 17:22:00 INFO [cache] Cache refreshed (4241 keys)
+2026-11-01 17:23:43 ERROR [api] Unhandled exception in GET /api/orders/5728: KeyError 'customer_id'
+2026-11-01 17:25:35 INFO [api] POST /api/cart 201 in 46ms
+2026-11-01 17:39:06 INFO [api] POST /api/cart 201 in 304ms
+2026-11-01 17:46:34 INFO [cache] Cache refreshed (3634 keys)
+2026-11-01 17:54:49 ERROR [db] Connection timeout after 3000ms to 10.0.3.107:5432
+2026-11-01 18:05:59 INFO [auth] User bob logged in
+2026-11-01 18:17:14 INFO [auth] User bob logged out
+2026-11-01 18:25:36 INFO [cache] Cache refreshed (9165 keys)
+2026-11-01 18:35:30 WARNING [db] Connection pool at 82% capacity
+2026-11-01 18:40:33 INFO [api] GET /api/orders/9022 200 in 172ms
+2026-11-01 18:48:49 INFO [auth] User bob logged out
+2026-11-01 18:55:54 INFO [cache] Cache refreshed (9115 keys)
+2026-11-01 19:05:22 INFO [auth] User bob logged in
+2026-11-01 19:16:57 ERROR [db] Connection timeout after 5000ms to 10.0.0.160:5432
+2026-11-01 19:21:19 INFO [api] POST /api/cart 201 in 474ms
+2026-11-01 19:28:12 INFO [auth] User erin logged out
+2026-11-01 19:40:21 WARNING [db] Connection pool at 94% capacity
+2026-11-01 19:45:45 INFO [auth] User alice logged out
+2026-11-01 19:52:48 INFO [auth] User bob logged in
+2026-11-01 20:00:03 WARNING [api] Slow response: GET /api/search took 4344ms
+2026-11-01 20:13:26 INFO [cache] Cache refreshed (2591 keys)
+2026-11-01 20:16:10 ERROR [db] Connection timeout after 3000ms to 10.0.2.137:5432
+2026-11-01 20:30:44 INFO [api] GET /api/orders/2886 200 in 499ms
+2026-11-01 20:45:40 INFO [api] GET /api/orders/7464 200 in 34ms
+2026-11-01 20:56:08 INFO [cache] Cache refreshed (2775 keys)
+2026-11-01 21:07:41 ERROR [api] Unhandled exception in GET /api/orders/7689: KeyError 'customer_id'
+2026-11-01 21:14:48 INFO [cache] Cache refreshed (7866 keys)
+2026-11-01 21:20:04 ERROR [db] Connection timeout after 3000ms to 10.0.2.141:5432
+2026-11-01 21:22:39 INFO [api] POST /api/cart 201 in 677ms
+2026-11-01 21:32:47 WARNING [db] Connection pool at 90% capacity
+2026-11-01 21:35:45 INFO [worker] Job 3858 completed in 132ms
+2026-11-01 21:41:46 ERROR [db] Connection timeout after 3000ms to 10.0.3.201:5432
+2026-11-01 21:52:45 ERROR [api] Unhandled exception in GET /api/orders/5941: KeyError 'customer_id'
+2026-11-01 22:00:49 ERROR [db] Connection timeout after 3000ms to 10.0.2.99:5432
+2026-11-01 22:03:00 INFO [auth] User erin logged in
+2026-11-01 22:08:50 INFO [cache] Cache refreshed (7132 keys)
+2026-11-01 22:21:56 INFO [auth] User erin logged out
+2026-11-01 22:35:14 INFO [cache] Cache refreshed (5712 keys)
+2026-11-01 22:39:33 INFO [api] GET /api/orders/7022 200 in 137ms
+2026-11-01 22:54:01 INFO [cache] Cache refreshed (1430 keys)
+2026-11-01 23:00:18 INFO [auth] User bob logged out
+2026-11-01 23:06:37 WARNING [auth] Failed login attempt for user carol from 10.0.0.174
+2026-11-01 23:15:24 INFO [api] POST /api/cart 201 in 793ms
+2026-11-01 23:24:12 INFO [api] GET /api/orders/4612 200 in 424ms
+2026-11-01 23:37:44 WARNING [auth] Failed login attempt for user alice from 10.0.1.99
+2026-11-01 23:52:27 INFO [api] GET /api/orders/7505 200 in 779ms
+2026-11-02 00:02:44 INFO [cache] Cache refreshed (5743 keys)
+2026-11-02 00:09:24 ERROR [api] Unhandled exception in GET /api/orders/8138: KeyError 'customer_id'
+2026-11-02 00:11:12 INFO [auth] User erin logged in
+2026-11-02 00:21:58 WARNING [api] Slow response: GET /api/search took 6618ms
+2026-11-02 00:27:58 INFO [cache] Cache refreshed (3473 keys)
+2026-11-02 00:34:28 INFO [api] GET /api/orders/8404 200 in 58ms
+2026-11-02 00:45:27 INFO [api] POST /api/cart 201 in 480ms
+2026-11-02 00:53:38 ERROR [worker] Job 2381 failed: out of memory
+2026-11-02 00:56:50 INFO [api] GET /api/orders/7697 200 in 813ms
+2026-11-02 01:02:10 WARNING [db] Connection pool at 84% capacity
+2026-11-02 01:12:49 INFO [auth] User carol logged in
+2026-11-02 01:19:30 INFO [auth] User carol logged out
+2026-11-02 01:33:09 INFO [cache] Cache refreshed (1618 keys)
+2026-11-02 01:44:18 INFO [auth] User dave logged out
+2026-11-02 01:48:47 INFO [api] GET /api/orders/4178 200 in 396ms
+2026-11-02 01:56:25 INFO [auth] User erin logged out
+2026-11-02 01:59:02 WARNING [db] Connection pool at 93% capacity
+2026-11-02 01:59:59 INFO [api] POST /api/cart 201 in 261ms
+2026-11-02 02:12:40 INFO [auth] User bob logged out
+2026-11-02 02:17:32 WARNING [db] Connection pool at 89% capacity
+2026-11-02 02:31:34 INFO [auth] User alice logged in
+2026-11-02 02:38:05 WARNING [worker] Retrying job 2402 (attempt 2/3)
+2026-11-02 02:44:57 WARNING [api] Slow response: GET /api/search took 3975ms
+2026-11-02 02:56:25 WARNING [worker] Retrying job 3986 (attempt 2/3)
+2026-11-02 02:57:37 INFO [api] GET /api/orders/7524 200 in 854ms
+2026-11-02 03:11:26 ERROR [api] Unhandled exception in GET /api/orders/3039: KeyError 'customer_id'
+2026-11-02 03:20:24 INFO [api] GET /api/orders/5369 200 in 840ms
+2026-11-02 03:25:54 INFO [auth] User carol logged in
+2026-11-02 03:32:25 INFO [api] POST /api/cart 201 in 96ms
+2026-11-02 03:35:21 INFO [cache] Cache refreshed (1570 keys)
+2026-11-02 03:38:28 INFO [api] GET /api/orders/8273 200 in 801ms
+2026-11-02 03:43:13 INFO [auth] User bob logged in
+2026-11-02 03:54:09 WARNING [worker] Retrying job 3009 (attempt 3/3)
+2026-11-02 04:06:17 INFO [api] GET /api/orders/2063 200 in 583ms
+2026-11-02 04:17:40 WARNING [auth] Failed login attempt for user erin from 10.0.1.204
+2026-11-02 04:24:27 INFO [worker] Job 2412 completed in 87ms
+2026-11-02 04:26:12 WARNING [auth] Failed login attempt for user alice from 10.0.2.34
+2026-11-02 04:28:54 INFO [auth] User alice logged in
+2026-11-02 04:38:15 INFO [auth] User carol logged in
+2026-11-02 04:49:41 WARNING [db] Connection pool at 81% capacity
+2026-11-02 04:54:42 INFO [worker] Job 1496 completed in 529ms
+2026-11-02 05:06:53 INFO [api] POST /api/cart 201 in 181ms
+2026-11-02 05:19:38 INFO [api] GET /api/orders/3142 200 in 798ms
+2026-11-02 05:24:21 WARNING [api] Slow response: GET /api/search took 5425ms
+2026-11-02 05:28:05 INFO [api] POST /api/cart 201 in 530ms
+2026-11-02 05:32:15 INFO [auth] User alice logged in
+2026-11-02 05:37:15 INFO [api] POST /api/cart 201 in 430ms
+2026-11-02 05:45:26 INFO [api] GET /api/orders/2946 200 in 151ms
+2026-11-02 05:48:23 WARNING [worker] Retrying job 1659 (attempt 2/3)
+2026-11-02 05:57:40 WARNING [auth] Failed login attempt for user bob from 10.0.2.131
+2026-11-02 06:03:16 INFO [auth] User carol logged in
+2026-11-02 06:13:57 INFO [cache] Cache refreshed (4728 keys)
+2026-11-02 06:28:48 INFO [cache] Cache refreshed (1517 keys)
+2026-11-02 06:41:05 WARNING [worker] Retrying job 3262 (attempt 2/3)
+2026-11-02 06:44:32 INFO [worker] Job 9950 completed in 382ms
+2026-11-02 06:50:06 INFO [cache] Cache refreshed (9011 keys)
+2026-11-02 06:57:20 INFO [auth] User carol logged out
+2026-11-02 07:01:29 WARNING [auth] Failed login attempt for user erin from 10.0.1.64
+2026-11-02 07:12:52 WARNING [api] Slow response: GET /api/search took 5869ms
+2026-11-02 07:24:30 INFO [api] POST /api/cart 201 in 794ms
+2026-11-02 07:34:47 WARNING [api] Slow response: GET /api/search took 3440ms
+2026-11-02 07:40:13 INFO [auth] User carol logged in
+2026-11-02 07:44:00 INFO [api] GET /api/orders/8518 200 in 683ms
+2026-11-02 07:57:25 WARNING [worker] Retrying job 9442 (attempt 1/3)
+2026-11-02 07:58:01 WARNING [db] Connection pool at 98% capacity
+2026-11-02 08:09:54 ERROR [db] Connection timeout after 5000ms to 10.0.2.96:5432
+2026-11-02 08:18:09 INFO [worker] Job 7813 completed in 738ms
+2026-11-02 08:32:05 ERROR [payments] Payment 2279 failed: card declined (request dabf984e-53ff-8461-2a1f-1b61265cb9d9)
+2026-11-02 08:34:34 INFO [cache] Cache refreshed (9008 keys)
+2026-11-02 08:36:03 INFO [cache] Cache refreshed (1356 keys)
+2026-11-02 08:37:38 INFO [auth] User alice logged in
+2026-11-02 08:49:09 INFO [api] GET /api/orders/8348 200 in 406ms
+2026-11-02 08:56:21 INFO [cache] Cache refreshed (1056 keys)
+2026-11-02 09:10:54 WARNING [worker] Retrying job 3541 (attempt 3/3)
+2026-11-02 09:11:40 WARNING [api] Slow response: GET /api/search took 6897ms
+2026-11-02 09:15:52 INFO [auth] User bob logged in
+2026-11-02 09:20:24 INFO [auth] User erin logged out
+2026-11-02 09:31:35 INFO [worker] Job 1768 completed in 372ms
+2026-11-02 09:35:13 INFO [api] POST /api/cart 201 in 327ms
+2026-11-02 09:45:13 INFO [api] POST /api/cart 201 in 228ms
+2026-11-02 09:48:58 ERROR [db] Connection timeout after 3000ms to 10.0.1.124:5432
+2026-11-02 09:49:43 WARNING [db] Connection pool at 86% capacity
+2026-11-02 09:56:42 INFO [cache] Cache refreshed (6053 keys)
+2026-11-02 10:10:11 INFO [auth] User carol logged out
+2026-11-02 10:20:39 INFO [api] POST /api/cart 201 in 220ms
+2026-11-02 10:32:50 INFO [api] POST /api/cart 201 in 192ms
+2026-11-02 10:42:35 INFO [auth] User erin logged in
+2026-11-02 10:55:09 WARNING [db] Connection pool at 95% capacity
+2026-11-02 10:55:56 INFO [api] GET /api/orders/5697 200 in 37ms
+2026-11-02 11:07:00 INFO [api] GET /api/orders/7502 200 in 100ms
+2026-11-02 11:19:10 INFO [auth] User alice logged in
+2026-11-02 11:28:11 INFO [cache] Cache refreshed (2562 keys)
+2026-11-02 11:29:28 INFO [cache] Cache refreshed (9897 keys)
+2026-11-02 11:32:25 INFO [cache] Cache refreshed (2260 keys)
+2026-11-02 11:39:28 INFO [auth] User alice logged out
+2026-11-02 11:53:05 INFO [worker] Job 6347 completed in 50ms
+2026-11-02 12:00:57 WARNING [worker] Retrying job 5839 (attempt 1/3)
+2026-11-02 12:04:04 INFO [api] GET /api/orders/2745 200 in 113ms
+2026-11-02 12:11:55 INFO [worker] Job 7685 completed in 125ms
+2026-11-02 12:18:59 ERROR [payments] Payment 4977 failed: card declined (request 7e3d5ee4-44b6-4ec1-4d16-f04944d7df9a)
+Traceback (most recent call last):
+  File "app/handlers.py", line 42, in handle
+    raise RuntimeError('boom')
+2026-11-02 12:22:20 INFO [api] POST /api/cart 201 in 821ms
+2026-11-02 12:33:21 WARNING [api] Slow response: GET /api/search took 5241ms
+2026-11-02 12:47:54 INFO [worker] Job 5922 completed in 348ms
+2026-11-02 12:53:22 INFO [cache] Cache refreshed (4971 keys)
+2026-11-02 13:03:10 WARNING [api] Slow response: GET /api/search took 4386ms
+2026-11-02 13:07:58 INFO [cache] Cache refreshed (7176 keys)
+2026-11-02 13:15:36 INFO [api] GET /api/orders/2392 200 in 131ms
+2026-11-02 13:27:39 INFO [api] GET /api/orders/2735 200 in 30ms
+2026-11-02 13:37:58 WARNING [auth] Failed login attempt for user dave from 10.0.1.90
+2026-11-02 13:39:55 ERROR [worker] Job 6707 failed: out of memory
+2026-11-02 13:48:08 INFO [api] GET /api/orders/2885 200 in 43ms
+2026-11-02 13:51:21 INFO [api] POST /api/cart 201 in 836ms
+2026-11-02 14:02:19 INFO [api] POST /api/cart 201 in 418ms
+2026-11-02 14:04:33 INFO [worker] Job 6993 completed in 353ms
+2026-11-02 14:15:57 INFO [api] POST /api/cart 201 in 621ms
+2026-11-02 14:28:29 INFO [worker] Job 2388 completed in 708ms
+2026-11-02 14:31:23 INFO [api] POST /api/cart 201 in 608ms
+2026-11-02 14:34:50 INFO [api] POST /api/cart 201 in 211ms
+2026-11-02 14:38:39 INFO [worker] Job 9109 completed in 438ms
+2026-11-02 14:39:40 INFO [auth] User carol logged out
+2026-11-02 14:48:37 INFO [auth] User erin logged in
+2026-11-02 14:56:22 ERROR [api] Unhandled exception in GET /api/orders/5877: KeyError 'customer_id'
+2026-11-02 15:00:54 WARNING [auth] Failed login attempt for user erin from 10.0.1.210
+2026-11-02 15:10:29 WARNING [db] Connection pool at 88% capacity
+2026-11-02 15:22:10 WARNING [db] Connection pool at 87% capacity
+2026-11-02 15:29:44 INFO [auth] User alice logged in
+2026-11-02 15:43:26 INFO [auth] User dave logged in
+2026-11-02 15:49:26 INFO [api] GET /api/orders/3139 200 in 599ms
+2026-11-02 15:50:12 WARNING [db] Connection pool at 86% capacity
+2026-11-02 15:55:22 ERROR [db] Connection timeout after 3000ms to 10.0.2.187:5432
+Traceback (most recent call last):
+  File "app/handlers.py", line 42, in handle
+    raise RuntimeError('boom')
+2026-11-02 15:57:29 ERROR [payments] Payment 4705 failed: card declined (request fcf7b842-1edf-3bfa-d12e-0eb557f479b5)
+2026-11-02 16:09:49 WARNING [api] Slow response: GET /api/search took 7986ms
+2026-11-02 16:23:31 INFO [auth] User bob logged out
+2026-11-02 16:26:36 INFO [worker] Job 4559 completed in 108ms
+2026-11-02 16:32:28 INFO [auth] User carol logged out
+2026-11-02 16:43:19 INFO [cache] Cache refreshed (5842 keys)
+2026-11-02 16:45:01 INFO [auth] User carol logged in
+2026-11-02 16:58:39 ERROR [payments] Payment 5295 failed: card declined (request c4615234-8044-beb2-b66e-dbf4a0ea0251)
+2026-11-02 17:11:07 INFO [cache] Cache refreshed (9808 keys)
+2026-11-02 17:25:24 WARNING [auth] Failed login attempt for user dave from 10.0.1.16
+2026-11-02 17:33:38 INFO [auth] User carol logged in
+2026-11-02 17:47:29 INFO [api] GET /api/orders/7092 200 in 149ms
+2026-11-02 18:00:08 INFO [cache] Cache refreshed (9128 keys)
+2026-11-02 18:13:49 ERROR [payments] Payment 4742 failed: card declined (request 5d2d904f-78c5-9073-0bc5-72073e9aec86)
+2026-11-02 18:16:52 WARNING [api] Slow response: GET /api/search took 4636ms
+2026-11-02 18:27:07 INFO [worker] Job 3938 completed in 248ms
+2026-11-02 18:32:55 INFO [worker] Job 1130 completed in 397ms
+2026-11-02 18:41:50 INFO [auth] User erin logged out
+2026-11-02 18:42:29 INFO [auth] User dave logged in
+2026-11-02 18:45:24 INFO [auth] User alice logged in
+2026-11-02 18:48:10 INFO [api] POST /api/cart 201 in 465ms
+2026-11-02 18:55:22 INFO [cache] Cache refreshed (6211 keys)
+2026-11-02 18:57:43 WARNING [db] Connection pool at 83% capacity
+2026-11-02 19:00:15 ERROR [api] Unhandled exception in GET /api/orders/1660: KeyError 'customer_id'
+Traceback (most recent call last):
+  File "app/handlers.py", line 42, in handle
+    raise RuntimeError('boom')
+2026-11-02 19:05:51 WARNING [db] Connection pool at 97% capacity
+2026-11-02 19:08:25 ERROR [api] Unhandled exception in GET /api/orders/3141: KeyError 'customer_id'
+Traceback (most recent call last):
+  File "app/handlers.py", line 42, in handle
+    raise RuntimeError('boom')
+2026-11-02 19:10:01 WARNING [worker] Retrying job 2506 (attempt 2/3)
+2026-11-02 19:17:54 INFO [api] POST /api/cart 201 in 411ms
+2026-11-02 19:26:00 INFO [auth] User erin logged in
+2026-11-02 19:33:02 WARNING [db] Connection pool at 80% capacity
+2026-11-02 19:41:48 INFO [worker] Job 6269 completed in 417ms
+2026-11-02 19:55:35 WARNING [worker] Retrying job 6856 (attempt 1/3)
+2026-11-02 20:10:00 INFO [cache] Cache refreshed (4594 keys)
+2026-11-02 20:22:24 INFO [worker] Job 6761 completed in 601ms
+2026-11-02 20:23:32 ERROR [db] Connection timeout after 5000ms to 10.0.1.208:5432
+2026-11-02 20:29:33 ERROR [db] Connection timeout after 5000ms to 10.0.3.152:5432
+2026-11-02 20:42:32 INFO [cache] Cache refreshed (6198 keys)
+2026-11-02 20:48:16 INFO [api] GET /api/orders/3911 200 in 766ms
+2026-11-02 21:02:34 INFO [auth] User erin logged out
+2026-11-02 21:04:34 INFO [cache] Cache refreshed (8317 keys)
+2026-11-02 21:17:21 ERROR [db] Connection timeout after 5000ms to 10.0.2.141:5432
+2026-11-02 21:28:57 INFO [auth] User bob logged out
+2026-11-02 21:32:21 INFO [auth] User alice logged out
+2026-11-02 21:35:31 ERROR [db] Connection timeout after 5000ms to 10.0.2.62:5432
+2026-11-02 21:38:38 ERROR [db] Connection timeout after 5000ms to 10.0.0.54:5432
+2026-11-02 21:41:06 INFO [api] POST /api/cart 201 in 696ms
+2026-11-02 21:49:12 ERROR [payments] Payment 4706 failed: card declined (request ab0b4cc5-15f0-ea19-18c1-80d2aadf3692)
+2026-11-02 21:58:56 INFO [worker] Job 1999 completed in 880ms
+2026-11-02 22:09:12 INFO [api] POST /api/cart 201 in 424ms
+2026-11-02 22:13:18 INFO [auth] User alice logged out
+2026-11-02 22:19:15 INFO [auth] User alice logged in
+2026-11-02 22:19:57 INFO [worker] Job 9561 completed in 820ms
+2026-11-02 22:22:09 INFO [worker] Job 5687 completed in 568ms
+2026-11-02 22:23:17 WARNING [worker] Retrying job 7581 (attempt 3/3)
+2026-11-02 22:30:08 ERROR [api] Unhandled exception in GET /api/orders/6094: KeyError 'customer_id'
+2026-11-02 22:35:13 INFO [worker] Job 4079 completed in 472ms
+2026-11-02 22:44:30 INFO [auth] User carol logged in
+2026-11-02 22:45:59 WARNING [worker] Retrying job 6904 (attempt 2/3)
+2026-11-02 22:48:35 INFO [auth] User carol logged out
+2026-11-02 22:53:29 INFO [cache] Cache refreshed (5670 keys)
+2026-11-02 22:57:45 INFO [cache] Cache refreshed (5408 keys)
+2026-11-02 23:09:17 WARNING [api] Slow response: GET /api/search took 4502ms
+2026-11-02 23:13:30 INFO [cache] Cache refreshed (7506 keys)
+2026-11-02 23:25:40 ERROR [db] Connection timeout after 5000ms to 10.0.1.40:5432
+2026-11-02 23:39:51 INFO [api] POST /api/cart 201 in 758ms
+2026-11-02 23:50:18 INFO [worker] Job 6622 completed in 763ms
+2026-11-02 23:53:42 INFO [worker] Job 5813 completed in 119ms
+2026-11-03 00:05:48 INFO [cache] Cache refreshed (4641 keys)
+2026-11-03 00:14:12 INFO [api] POST /api/cart 201 in 503ms
+2026-11-03 00:15:37 INFO [auth] User bob logged out
+2026-11-03 00:17:29 INFO [cache] Cache refreshed (6134 keys)
+2026-11-03 00:31:01 WARNING [api] Slow response: GET /api/search took 5517ms
+2026-11-03 00:34:55 INFO [auth] User carol logged in
+2026-11-03 00:37:10 INFO [worker] Job 3736 completed in 86ms
+2026-11-03 00:45:04 INFO [auth] User carol logged out
+2026-11-03 00:49:10 INFO [worker] Job 3768 completed in 146ms
+2026-11-03 00:50:29 INFO [auth] User alice logged in
+2026-11-03 01:02:57 WARNING [api] Slow response: GET /api/search took 2827ms
+2026-11-03 01:05:14 INFO [worker] Job 5631 completed in 136ms
+2026-11-03 01:09:10 INFO [api] POST /api/cart 201 in 60ms
+2026-11-03 01:21:07 ERROR [db] Connection timeout after 3000ms to 10.0.0.187:5432
+2026-11-03 01:26:40 WARNING [api] Slow response: GET /api/search took 4380ms
+2026-11-03 01:27:56 ERROR [db] Connection timeout after 5000ms to 10.0.0.97:5432
+2026-11-03 01:33:04 INFO [cache] Cache refreshed (7909 keys)
+2026-11-03 01:36:17 ERROR [worker] Job 8178 failed: out of memory
+2026-11-03 01:39:00 INFO [api] POST /api/cart 201 in 471ms
+2026-11-03 01:48:27 INFO [worker] Job 4669 completed in 705ms
+2026-11-03 02:00:16 INFO [api] POST /api/cart 201 in 31ms
+2026-11-03 02:09:09 INFO [api] GET /api/orders/1824 200 in 539ms
+2026-11-03 02:19:25 INFO [api] POST /api/cart 201 in 141ms
+2026-11-03 02:34:00 ERROR [payments] Payment 5990 failed: card declined (request d10bf4dc-0de4-faf4-d347-94cc5d04032d)
+2026-11-03 02:42:15 INFO [worker] Job 8751 completed in 753ms
+2026-11-03 02:48:34 INFO [cache] Cache refreshed (9973 keys)
+2026-11-03 03:01:44 INFO [auth] User carol logged in
+2026-11-03 03:09:18 ERROR [payments] Payment 3018 failed: card declined (request 0c6f3051-bc78-8423-87c5-f526011c4544)
+2026-11-03 03:17:11 INFO [api] POST /api/cart 201 in 728ms
+2026-11-03 03:23:10 INFO [api] POST /api/cart 201 in 300ms
+2026-11-03 03:36:26 INFO [cache] Cache refreshed (6143 keys)
+2026-11-03 03:48:24 WARNING [db] Connection pool at 90% capacity
+2026-11-03 04:00:17 INFO [cache] Cache refreshed (5684 keys)
+2026-11-03 04:04:11 WARNING [db] Connection pool at 89% capacity
+2026-11-03 04:06:25 INFO [cache] Cache refreshed (4675 keys)
+2026-11-03 04:11:49 INFO [auth] User dave logged in
+2026-11-03 04:25:38 INFO [api] POST /api/cart 201 in 793ms
+2026-11-03 04:29:09 INFO [auth] User bob logged in
+2026-11-03 04:32:23 INFO [api] GET /api/orders/6415 200 in 497ms
+2026-11-03 04:43:33 INFO [cache] Cache refreshed (9037 keys)
+2026-11-03 04:47:11 INFO [worker] Job 7814 completed in 576ms
+2026-11-03 04:53:20 INFO [auth] User erin logged out
+2026-11-03 05:04:18 INFO [auth] User alice logged out
+2026-11-03 05:18:49 INFO [worker] Job 8300 completed in 518ms
+2026-11-03 05:32:30 INFO [auth] User alice logged in
+2026-11-03 05:45:39 INFO [cache] Cache refreshed (3519 keys)
+2026-11-03 05:55:40 ERROR [api] Unhandled exception in GET /api/orders/7678: KeyError 'customer_id'
+Traceback (most recent call last):
+  File "app/handlers.py", line 42, in handle
+    raise RuntimeError('boom')
+2026-11-03 06:08:27 INFO [cache] Cache refreshed (1745 keys)
+2026-11-03 06:22:00 INFO [api] POST /api/cart 201 in 505ms
+2026-11-03 06:31:48 WARNING [db] Connection pool at 97% capacity
+2026-11-03 06:41:28 INFO [auth] User carol logged in
+2026-11-03 06:45:06 WARNING [auth] Failed login attempt for user bob from 10.0.0.219
+2026-11-03 06:50:33 INFO [api] GET /api/orders/4234 200 in 763ms
+2026-11-03 06:55:54 INFO [auth] User carol logged out
+2026-11-03 07:03:42 WARNING [auth] Failed login attempt for user bob from 10.0.2.217
+2026-11-03 07:12:23 INFO [api] GET /api/orders/8978 200 in 584ms
+2026-11-03 07:22:04 WARNING [api] Slow response: GET /api/search took 6154ms
+2026-11-03 07:27:00 INFO [worker] Job 3435 completed in 394ms
+2026-11-03 07:33:42 INFO [cache] Cache refreshed (3717 keys)
+2026-11-03 07:36:41 INFO [api] POST /api/cart 201 in 244ms
+2026-11-03 07:46:01 INFO [api] GET /api/orders/8695 200 in 485ms
+2026-11-03 07:51:11 INFO [api] GET /api/orders/9918 200 in 603ms
+2026-11-03 08:00:30 WARNING [db] Connection pool at 95% capacity
+2026-11-03 08:08:30 WARNING [api] Slow response: GET /api/search took 3230ms
+2026-11-03 08:12:55 INFO [api] GET /api/orders/8889 200 in 711ms
+2026-11-03 08:17:34 ERROR [payments] Payment 3207 failed: card declined (request 8442906f-2e16-f0b6-ec25-7a75421d4dca)
+2026-11-03 08:28:17 INFO [cache] Cache refreshed (5644 keys)
+2026-11-03 08:39:02 WARNING [db] Connection pool at 90% capacity
+2026-11-03 08:41:47 ERROR [db] Connection timeout after 3000ms to 10.0.1.123:5432
+2026-11-03 08:55:07 ERROR [payments] Payment 9835 failed: card declined (request 3abf9c65-6dd0-13f3-87a2-0e22b298b811)
+2026-11-03 09:03:50 INFO [api] POST /api/cart 201 in 455ms
+2026-11-03 09:14:32 INFO [api] POST /api/cart 201 in 25ms
+2026-11-03 09:28:45 INFO [api] GET /api/orders/3535 200 in 456ms
+2026-11-03 09:33:57 INFO [api] POST /api/cart 201 in 585ms
+2026-11-03 09:39:41 INFO [cache] Cache refreshed (3262 keys)
+2026-11-03 09:48:51 INFO [api] GET /api/orders/1852 200 in 184ms
+2026-11-03 09:50:51 ERROR [db] Connection timeout after 5000ms to 10.0.2.184:5432
+2026-11-03 09:59:47 INFO [auth] User erin logged out
+2026-11-03 10:11:27 ERROR [db] Connection timeout after 5000ms to 10.0.3.152:5432
+Traceback (most recent call last):
+  File "app/handlers.py", line 42, in handle
+    raise RuntimeError('boom')
+2026-11-03 10:13:29 INFO [cache] Cache refreshed (6703 keys)
+2026-11-03 10:20:55 INFO [worker] Job 9243 completed in 321ms
+2026-11-03 10:33:15 INFO [api] POST /api/cart 201 in 808ms
+2026-11-03 10:41:58 ERROR [db] Connection timeout after 5000ms to 10.0.0.181:5432
+2026-11-03 10:56:28 INFO [worker] Job 8807 completed in 341ms
+2026-11-03 11:05:28 INFO [auth] User bob logged out
+2026-11-03 11:08:00 INFO [cache] Cache refreshed (1108 keys)
+2026-11-03 11:18:18 INFO [api] POST /api/cart 201 in 306ms
+2026-11-03 11:28:01 ERROR [db] Connection timeout after 3000ms to 10.0.3.82:5432
+2026-11-03 11:30:14 INFO [worker] Job 4066 completed in 581ms
+2026-11-03 11:37:58 WARNING [auth] Failed login attempt for user carol from 10.0.1.252
+2026-11-03 11:50:46 WARNING [db] Connection pool at 86% capacity
+2026-11-03 11:54:16 INFO [auth] User erin logged out
+2026-11-03 11:56:27 INFO [auth] User bob logged in
+2026-11-03 12:06:27 INFO [api] GET /api/orders/1324 200 in 441ms
+2026-11-03 12:20:16 WARNING [auth] Failed login attempt for user erin from 10.0.3.159
+2026-11-03 12:23:37 INFO [api] GET /api/orders/7631 200 in 889ms
+2026-11-03 12:36:14 WARNING [worker] Retrying job 8289 (attempt 1/3)
+2026-11-03 12:49:09 WARNING [auth] Failed login attempt for user alice from 10.0.0.18
+2026-11-03 12:56:25 INFO [auth] User alice logged in
+2026-11-03 13:07:36 WARNING [db] Connection pool at 90% capacity
+2026-11-03 13:10:24 INFO [cache] Cache refreshed (3900 keys)
+2026-11-03 13:16:49 INFO [auth] User alice logged out
+2026-11-03 13:30:15 INFO [api] GET /api/orders/8687 200 in 567ms
+2026-11-03 13:40:56 WARNING [api] Slow response: GET /api/search took 5372ms
+2026-11-03 13:48:05 INFO [auth] User carol logged out
+2026-11-03 13:55:37 WARNING [api] Slow response: GET /api/search took 2904ms
+2026-11-03 13:56:26 WARNING [api] Slow response: GET /api/search took 4205ms
+2026-11-03 14:05:21 WARNING [worker] Retrying job 9165 (attempt 1/3)
+2026-11-03 14:07:04 INFO [auth] User bob logged out
+2026-11-03 14:15:07 WARNING [api] Slow response: GET /api/search took 2769ms
+2026-11-03 14:21:07 WARNING [api] Slow response: GET /api/search took 4075ms
+2026-11-03 14:25:20 INFO [auth] User dave logged out
+2026-11-03 14:39:12 INFO [cache] Cache refreshed (3539 keys)
+2026-11-03 14:52:39 INFO [auth] User carol logged in
+2026-11-03 15:04:09 INFO [api] POST /api/cart 201 in 725ms
+2026-11-03 15:09:40 INFO [api] POST /api/cart 201 in 576ms
+2026-11-03 15:11:20 INFO [api] POST /api/cart 201 in 574ms
+2026-11-03 15:12:09 INFO [api] GET /api/orders/4912 200 in 348ms
+2026-11-03 15:15:16 INFO [api] GET /api/orders/6276 200 in 133ms
+2026-11-03 15:17:35 INFO [auth] User alice logged in
+2026-11-03 15:18:18 INFO [auth] User dave logged out
+2026-11-03 15:25:05 INFO [auth] User erin logged in
+2026-11-03 15:37:57 WARNING [worker] Retrying job 4164 (attempt 3/3)
+2026-11-03 15:51:31 INFO [api] GET /api/orders/7997 200 in 126ms
+2026-11-03 16:02:15 INFO [api] GET /api/orders/6319 200 in 885ms
+2026-11-03 16:12:03 WARNING [auth] Failed login attempt for user carol from 10.0.0.253
+2026-11-03 16:17:42 ERROR [email] SMTP server rejected message to bob@example.com
+2026-11-03 16:28:08 WARNING [auth] Failed login attempt for user carol from 10.0.1.189
+2026-11-03 16:31:35 INFO [cache] Cache refreshed (2562 keys)
+2026-11-03 16:45:14 INFO [api] POST /api/cart 201 in 808ms
+2026-11-03 16:55:22 WARNING [db] Connection pool at 92% capacity
+2026-11-03 17:03:14 WARNING [worker] Retrying job 3165 (attempt 2/3)
+2026-11-03 17:11:08 INFO [auth] User bob logged out
+2026-11-03 17:24:11 INFO [auth] User alice logged out
+2026-11-03 17:27:56 INFO [worker] Job 5994 completed in 193ms
+2026-11-03 17:40:07 INFO [cache] Cache refreshed (2841 keys)
+2026-11-03 17:42:30 INFO [api] POST /api/cart 201 in 234ms
+2026-11-03 17:53:37 INFO [auth] User alice logged out
+2026-11-03 18:06:00 INFO [auth] User dave logged in
+2026-11-03 18:17:34 INFO [api] POST /api/cart 201 in 343ms
+2026-11-03 18:30:13 ERROR [db] Connection timeout after 5000ms to 10.0.1.6:5432
+2026-11-03 18:39:16 WARNING [api] Slow response: GET /api/search took 2241ms
+2026-11-03 18:42:06 ERROR [db] Connection timeout after 5000ms to 10.0.1.111:5432
+2026-11-03 18:46:07 INFO [worker] Job 4314 completed in 161ms
+2026-11-03 18:49:18 INFO [worker] Job 2939 completed in 208ms
+2026-11-03 18:56:49 INFO [cache] Cache refreshed (3489 keys)
+2026-11-03 19:01:52 INFO [worker] Job 4804 completed in 256ms
+2026-11-03 19:16:48 INFO [cache] Cache refreshed (4014 keys)
+2026-11-03 19:30:20 INFO [api] GET /api/orders/4646 200 in 780ms
+2026-11-03 19:41:21 INFO [api] GET /api/orders/5043 200 in 457ms
+2026-11-03 19:51:36 INFO [worker] Job 9530 completed in 131ms
+2026-11-03 20:04:38 ERROR [db] Connection timeout after 5000ms to 10.0.2.200:5432
+2026-11-03 20:06:03 INFO [auth] User dave logged out
+2026-11-03 20:08:51 INFO [api] GET /api/orders/1408 200 in 203ms
+2026-11-03 20:20:25 INFO [auth] User alice logged out
+2026-11-03 20:29:38 INFO [auth] User dave logged out
+2026-11-03 20:37:17 INFO [cache] Cache refreshed (5731 keys)
+2026-11-03 20:37:59 INFO [api] POST /api/cart 201 in 642ms
+2026-11-03 20:39:50 INFO [auth] User bob logged in
+2026-11-03 20:40:57 WARNING [api] Slow response: GET /api/search took 2718ms
+2026-11-03 20:52:43 INFO [worker] Job 3906 completed in 486ms
+2026-11-03 21:07:12 ERROR [payments] Payment 2063 failed: card declined (request 864f36dd-69ec-09d5-86ec-ed9954470290)
+2026-11-03 21:11:16 INFO [auth] User erin logged in
+2026-11-03 21:22:24 INFO [auth] User erin logged out
+2026-11-03 21:27:51 INFO [auth] User alice logged in
+2026-11-03 21:34:02 INFO [cache] Cache refreshed (1185 keys)
+2026-11-03 21:40:03 INFO [auth] User carol logged in
+2026-11-03 21:52:01 INFO [api] POST /api/cart 201 in 513ms
+2026-11-03 22:01:24 WARNING [auth] Failed login attempt for user erin from 10.0.2.206
+2026-11-03 22:16:14 ERROR [email] SMTP server rejected message to erin@example.com
+2026-11-03 22:22:06 INFO [api] GET /api/orders/2422 200 in 528ms
+2026-11-03 22:24:30 INFO [auth] User bob logged in
+2026-11-03 22:33:15 INFO [worker] Job 6363 completed in 166ms
+2026-11-03 22:42:39 ERROR [db] Connection timeout after 5000ms to 10.0.0.135:5432
+2026-11-03 22:54:03 INFO [api] GET /api/orders/4154 200 in 313ms
+2026-11-03 22:57:14 WARNING [api] Slow response: GET /api/search took 3692ms
+2026-11-03 23:11:27 WARNING [db] Connection pool at 90% capacity
+2026-11-03 23:12:48 ERROR [db] Connection timeout after 3000ms to 10.0.3.159:5432
+2026-11-03 23:24:44 INFO [auth] User dave logged in
+2026-11-03 23:33:10 INFO [auth] User bob logged out
+2026-11-03 23:41:46 ERROR [payments] Payment 5624 failed: card declined (request cbf85149-b6da-99cd-d14b-256c67db0943)
+Traceback (most recent call last):
+  File "app/handlers.py", line 42, in handle
+    raise RuntimeError('boom')
+2026-11-03 23:51:45 INFO [api] GET /api/orders/8552 200 in 430ms
+2026-11-03 23:58:48 ERROR [db] Connection timeout after 5000ms to 10.0.1.46:5432
+2026-11-04 00:13:34 INFO [worker] Job 8584 completed in 353ms
+2026-11-04 00:15:55 INFO [worker] Job 6364 completed in 526ms
+2026-11-04 00:27:16 INFO [auth] User bob logged out
+2026-11-04 00:37:29 INFO [cache] Cache refreshed (8122 keys)
+2026-11-04 00:43:00 ERROR [worker] Job 1013 failed: out of memory
+2026-11-04 00:50:13 INFO [cache] Cache refreshed (7652 keys)
+2026-11-04 00:57:16 INFO [api] GET /api/orders/3527 200 in 315ms
+2026-11-04 01:06:04 INFO [auth] User alice logged out
+2026-11-04 01:20:33 INFO [api] GET /api/orders/4044 200 in 454ms
+2026-11-04 01:28:03 INFO [worker] Job 1548 completed in 58ms
+2026-11-04 01:30:58 INFO [worker] Job 8617 completed in 549ms
+2026-11-04 01:42:52 ERROR [payments] Payment 6119 failed: card declined (request 92ef63c1-781f-9d3f-e7f3-39dc833de3ad)
+2026-11-04 01:50:33 INFO [api] GET /api/orders/3744 200 in 56ms
+2026-11-04 01:51:55 INFO [api] GET /api/orders/1447 200 in 313ms
+2026-11-04 01:54:40 INFO [api] GET /api/orders/1232 200 in 779ms
+2026-11-04 02:08:31 INFO [api] POST /api/cart 201 in 53ms
+2026-11-04 02:16:03 INFO [auth] User dave logged out
+2026-11-04 02:19:24 INFO [api] POST /api/cart 201 in 784ms
+2026-11-04 02:28:57 INFO [auth] User carol logged in
+2026-11-04 02:36:49 INFO [cache] Cache refreshed (6488 keys)
+2026-11-04 02:50:06 WARNING [db] Connection pool at 85% capacity
+2026-11-04 02:50:48 INFO [worker] Job 8306 completed in 379ms
+2026-11-04 03:01:26 INFO [auth] User erin logged out
+2026-11-04 03:15:38 INFO [auth] User bob logged in
+2026-11-04 03:27:31 INFO [api] GET /api/orders/3653 200 in 819ms
+2026-11-04 03:41:53 WARNING [worker] Retrying job 9056 (attempt 2/3)
+2026-11-04 03:49:44 WARNING [api] Slow response: GET /api/search took 2285ms
+2026-11-04 03:58:43 WARNING [api] Slow response: GET /api/search took 3241ms
+2026-11-04 04:07:35 INFO [api] POST /api/cart 201 in 251ms
+2026-11-04 04:13:46 INFO [api] POST /api/cart 201 in 394ms
+2026-11-04 04:17:43 WARNING [api] Slow response: GET /api/search took 7700ms
+2026-11-04 04:29:00 INFO [auth] User bob logged out
+2026-11-04 04:34:45 INFO [api] POST /api/cart 201 in 367ms
+2026-11-04 04:44:10 INFO [cache] Cache refreshed (3440 keys)
+2026-11-04 04:52:42 INFO [worker] Job 4976 completed in 738ms
+2026-11-04 05:06:44 ERROR [payments] Payment 2047 failed: card declined (request 33e04a38-cdf0-aaba-1027-fbf7387770f0)
+2026-11-04 05:21:04 INFO [cache] Cache refreshed (6312 keys)
+2026-11-04 05:27:17 ERROR [db] Connection timeout after 5000ms to 10.0.3.64:5432
+2026-11-04 05:38:14 INFO [auth] User alice logged out
+2026-11-04 05:43:34 INFO [api] POST /api/cart 201 in 166ms
+2026-11-04 05:44:42 INFO [cache] Cache refreshed (2442 keys)
+2026-11-04 05:54:14 INFO [worker] Job 9842 completed in 539ms
+2026-11-04 06:06:25 INFO [api] POST /api/cart 201 in 183ms
+2026-11-04 06:12:37 INFO [api] POST /api/cart 201 in 778ms
+2026-11-04 06:17:07 INFO [worker] Job 6340 completed in 449ms
+2026-11-04 06:30:12 INFO [auth] User dave logged out
+2026-11-04 06:38:27 WARNING [auth] Failed login attempt for user bob from 10.0.2.53
+2026-11-04 06:39:58 WARNING [api] Slow response: GET /api/search took 3402ms
+2026-11-04 06:51:21 INFO [auth] User erin logged out
+2026-11-04 06:56:36 ERROR [payments] Payment 5060 failed: card declined (request 92de0df8-e9eb-d446-2622-e0d6f23d9820)
+2026-11-04 07:04:13 INFO [auth] User dave logged in
+2026-11-04 07:08:49 ERROR [api] Unhandled exception in GET /api/orders/4571: KeyError 'customer_id'
+2026-11-04 07:17:09 INFO [cache] Cache refreshed (1399 keys)
+2026-11-04 07:17:40 INFO [auth] User dave logged in
+2026-11-04 07:27:59 INFO [cache] Cache refreshed (6500 keys)
+2026-11-04 07:39:02 ERROR [db] Connection timeout after 3000ms to 10.0.1.140:5432
+2026-11-04 07:51:31 WARNING [db] Connection pool at 93% capacity
+2026-11-04 08:00:34 INFO [auth] User dave logged in
+2026-11-04 08:14:52 INFO [auth] User bob logged in
+2026-11-04 08:27:15 WARNING [db] Connection pool at 89% capacity
+2026-11-04 08:33:40 INFO [cache] Cache refreshed (5776 keys)
+2026-11-04 08:40:01 INFO [api] GET /api/orders/9686 200 in 882ms
+2026-11-04 08:43:26 INFO [auth] User dave logged out
+2026-11-04 08:46:40 INFO [api] GET /api/orders/3873 200 in 879ms
+2026-11-04 08:49:19 INFO [api] GET /api/orders/4361 200 in 595ms
+2026-11-04 08:52:35 INFO [auth] User alice logged in
+2026-11-04 09:01:44 INFO [cache] Cache refreshed (8764 keys)
+2026-11-04 09:02:55 WARNING [api] Slow response: GET /api/search took 7058ms
+2026-11-04 09:06:44 INFO [auth] User carol logged out
+2026-11-04 09:13:57 WARNING [auth] Failed login attempt for user erin from 10.0.3.39
+2026-11-04 09:20:48 ERROR [db] Connection timeout after 3000ms to 10.0.3.207:5432
+2026-11-04 09:28:32 INFO [api] POST /api/cart 201 in 167ms
+2026-11-04 09:39:06 INFO [auth] User alice logged in
+2026-11-04 09:41:56 WARNING [worker] Retrying job 9037 (attempt 3/3)
+2026-11-04 09:55:56 ERROR [db] Connection timeout after 5000ms to 10.0.3.234:5432
+2026-11-04 10:04:50 INFO [auth] User erin logged in
+2026-11-04 10:17:10 INFO [api] GET /api/orders/1287 200 in 885ms
+2026-11-04 10:23:45 WARNING [auth] Failed login attempt for user carol from 10.0.2.76
+2026-11-04 10:27:33 INFO [auth] User alice logged out
+2026-11-04 10:37:10 INFO [auth] User alice logged out
+2026-11-04 10:41:23 WARNING [db] Connection pool at 97% capacity
+2026-11-04 10:44:07 INFO [api] POST /api/cart 201 in 727ms
+2026-11-04 10:47:33 INFO [auth] User alice logged in
+2026-11-04 10:55:18 INFO [auth] User alice logged in
+2026-11-04 11:05:55 ERROR [db] Connection timeout after 3000ms to 10.0.0.202:5432
+2026-11-04 11:09:34 INFO [auth] User alice logged in
+2026-11-04 11:20:31 WARNING [api] Slow response: GET /api/search took 3777ms
+2026-11-04 11:24:40 INFO [cache] Cache refreshed (7004 keys)
+2026-11-04 11:31:38 INFO [worker] Job 7677 completed in 135ms
+2026-11-04 11:44:09 WARNING [api] Slow response: GET /api/search took 2947ms
+2026-11-04 11:59:00 INFO [worker] Job 5761 completed in 895ms
+2026-11-04 11:59:43 INFO [api] POST /api/cart 201 in 468ms
+2026-11-04 12:01:57 INFO [auth] User alice logged out
+2026-11-04 12:07:12 INFO [worker] Job 5472 completed in 794ms
+2026-11-04 12:15:58 INFO [auth] User dave logged out
+2026-11-04 12:29:03 ERROR [db] Connection timeout after 5000ms to 10.0.1.79:5432
+2026-11-04 12:38:25 INFO [api] POST /api/cart 201 in 697ms
+2026-11-04 12:39:13 INFO [auth] User dave logged in
+2026-11-04 12:50:58 INFO [api] GET /api/orders/9052 200 in 461ms
+2026-11-04 13:00:55 INFO [worker] Job 8797 completed in 595ms
+2026-11-04 13:11:56 INFO [api] GET /api/orders/2006 200 in 48ms
+2026-11-04 13:12:53 INFO [cache] Cache refreshed (7235 keys)
+2026-11-04 13:17:23 INFO [worker] Job 2073 completed in 332ms
+2026-11-04 13:25:05 INFO [api] POST /api/cart 201 in 732ms
+2026-11-04 13:35:21 ERROR [payments] Payment 6504 failed: card declined (request 33a67403-6f9d-1d74-f82c-6ad85d037a06)
+2026-11-04 13:50:18 INFO [auth] User erin logged in
