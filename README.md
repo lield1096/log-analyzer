@@ -1,7 +1,7 @@
 # Log Analyzer
 
 [![CI](https://github.com/lield1096/log-analyzer/actions/workflows/ci.yml/badge.svg)](https://github.com/lield1096/log-analyzer/actions/workflows/ci.yml)
-![Python](https://img.shields.io/badge/python-3.9%2B-blue)
+![Python](https://img.shields.io/badge/python-3.10%2B-blue)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 A lightweight command-line tool that reads application log files, counts
